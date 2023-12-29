@@ -1,0 +1,269 @@
+/*Google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Playfair+Display&display=swap');
+body
+{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Libre Baskerville', serif;
+	background-color: black;
+
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #fbe4f6;
+
+
+}
+.myname
+{
+
+ font-family: 'Cormorant Garamond', serif;
+ font-family: 'Playfair Display', serif;
+ font-weight: bolder;
+ font-size: 30px;
+ color: darkred;
+}
+.myname:hover
+{
+	text-shadow: 5px 5px 10px;
+}
+.menu
+{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+}
+.menu:hover
+{
+	color: darkred;
+	text-shadow: 10px 10px 15px;
+
+}
+#home
+{
+	margin-top: 90px;
+}
+.dv
+{
+/*	color: whitesmoke;*/
+	height: 300px;
+	width: 100%;
+ 
+}
+.projt{
+	height: 500px;
+}
+.info
+{
+
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.ab
+{
+	font-size: 10px;
+	color: whitesmoke;
+}
+.hminfo
+{
+
+	font-size: 30px;
+	color: floralwhite;
+}
+.hminfo:hover
+{
+ box-shadow: 10px 10px 15px;	
+ background-color: purple;
+ color: whitesmoke;
+}
+.hmname
+{
+  font-family: 'Cormorant Garamond', serif;
+ font-family: 'Playfair Display', serif;
+ font-weight: bolder;
+ font-size: 30px;
+ color: deeppink;
+}
+.hmname:hover
+{
+	box-shadow:10px 10px 15px ;
+	background-color: purple;
+	color: whitesmoke;
+}
+#home
+{
+	width: 100vw;
+	height: 400px;
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 94% 70px;
+}
+/*button styling*/
+.rbtn button
+{
+ height: 50px;
+ width: 130px;
+ border: none;
+ border-radius: 10px;
+ margin: 30px;
+ background-color:indigo ;
+ color:white ;
+}
+.rbtn button:hover
+{
+	transform: scale(1.2);
+	transition-duration: 1s;
+	border: 1px solid ;
+	box-shadow: 5px 5px 10px black;
+	background-color: whitesmoke;
+	color:indigo ;
+}
+.hd
+{
+	background-color:#fbe4f6 ;
+	font-size: 35px;
+	color:purple ;
+	font-family: 'Libre Baskerville', serif;
+
+ 
+}
+
+.co
+{
+
+	color: whitesmoke;
+ font-size: 20px;
+ font-weight: bolder;
+ text-align: justify;
+ text-indent: 20%;
+ line-height: 35px
+}
+.mimg
+{
+	margin-top: 20px;
+	border-radius: 100px;
+	width: 200px;
+}
+.mimg:hover
+{
+	transform: scale(1.3);
+	transition-duration: 2s;
+	box-shadow: 5px 5px 20px black;
+}
+#skill
+{
+	background-color: black;
+	color: whitesmoke;
+	margin-top: 30px;
+	height: 500px;
+}
+#skill table
+{
+	margin-top: 30px;
+}
+.tbl tr td
+{
+	text-align: left;
+	padding-top: 0px;
+}
+.skillhead
+{
+	font-size: 23px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	margin-bottom: 40px;
+	text-decoration: underline 2px solid ;
+	color: deeppink;
+}
+td
+{
+	padding: 20px;
+}
+.tbl tr td px
+{
+ font-size: 20px;
+ margin-top: 20px;
+ color: ;
+ font-weight: bolder;
+}
+
+.project
+{
+
+ margin-top: 30px;
+ width: 90%;
+ height: 800px;
+
+}
+.protitle
+{
+ font-size: 23px;
+ font-weight: bolder;
+ color: black;
+}
+.protitle:hover
+{
+	color: darkred;
+	text-decoration: underline 2px solid white;
+}
+.Phead{
+	font-size: 23px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	margin-bottom: 40px;
+	text-decoration: underline 2px solid ;
+	color: deeppink;
+
+}
+#nextpro
+{
+	margin-top: 20px;
+}
+#contact
+{
+	width: 100vw;
+	height: 300px;
+	color: whitesmoke;
+	z-index: -2;
+
+}
+.btn
+{
+	height: 50px;
+ width: 130px;
+ border: none;
+ border-radius: 10px;
+ margin: 30px;
+ background-color:indigo ;
+ color:white ;
+ 
+}
+.btn:hover
+{
+	transform: scale(1.2);
+	transition-duration: 1s;
+	border: 1px solid ;
+	box-shadow: 5px 5px 10px black;
+	background-color: white;
+	color:indigo;
+}
+.ftbl{
+	font-weight: bolder;
+	color:deeppink;
+	background-size: cover;
+	background-image: url(https://t4.ftcdn.net/jpg/03/10/11/75/360_F_310117584_EVU1JD8sizbujGrfiKuJ8Gee2D4SR0HV.jpg);
+}
+.foot{
+	margin-top: 10px;
+
+	background-image: url(https://s3.amazonaws.com/storage-ubertor-com/limelightmarketingtestsite1.ourubertor.com/content/image/554.jpg);
+}
+
